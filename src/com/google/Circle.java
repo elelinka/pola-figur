@@ -8,4 +8,8 @@ public class Circle {
     public Circle(double r) {
         radius = r;
     }
+
+    public double circleAre() {
+        return pi * radius * radius;
+    }
 }

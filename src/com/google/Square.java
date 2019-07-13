@@ -7,4 +7,8 @@ public class Square {
     public Square(double a) {
         sideA = a;
     }
+
+    public double squareArea() {
+        return sideA * sideA;
+    }
 }

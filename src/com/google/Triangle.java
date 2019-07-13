@@ -11,4 +11,8 @@ public class Triangle {
         sideB = b;
         sideC = c;
     }
+
+    public double trianglePerimeter() {
+        return sideA + sideB + sideC;
+    }
 }

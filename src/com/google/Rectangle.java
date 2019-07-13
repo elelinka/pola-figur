@@ -9,4 +9,8 @@ public class Rectangle {
         sideA = a;
         sideB = b;
     }
+
+    public double rectPerimeter() {
+        return (sideA * 2) + (sideB * 2);
+    }
 }
